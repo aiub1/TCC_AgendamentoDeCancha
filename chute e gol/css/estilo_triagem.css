@@ -1,0 +1,23 @@
+﻿body {
+			margin: 0;
+			padding: 0;
+			background-image: url('../imagens/fundo_goleiro.png')
+		}
+
+		.barra {
+			 background-color: #303a43;
+			 position: fixed;
+			 top: 0;
+			 left: 0;
+			 right: 0;
+			 height: 55px;
+			 font-size: 40px;
+			 font-family: american captain;
+			 text-align: center;
+			 color: #ffffff;
+		}
+		
+		.link	{
+			color: #FFFFFF;
+			text-decoration: none;
+		}

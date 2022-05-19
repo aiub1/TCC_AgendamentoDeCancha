@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color:#4E5F6D;
+
+}
+
+table{
+    border-collapse: collapse;
+}
+.tabela_horarios{
+    border: 1px solid black;
+    table-layout:fixed;
+    overflow:hidden;
+    word-wrap:break-word;
+    background-color:#F0F0F0;
+	text-align: center;
+}
+
+th {
+    border: 1px solid black;    
+    background: #E0E0E0;
+    padding: 10px 0px;
+    white-space:pre;
+    font-size: 15px;
+}
+
+tr, td {
+    border-top: 1px solid black;
+    table-layout:fixed;
+    width: 80px;  
+    text-align: center; 
+    font-size: 10px;
+}
+
+.tab_mes {
+    background-color: #6D30CC;
+    color: white;
+    padding: 20px 10px;
+}
+
+#horarios {
+    margin-top: 20px;
+}
+
+th{
+    color: blue;
+}
+
+.trabalha{
+    background: #22AF1E ;
+    font-size: small;
+}
+
+.nao_trabalha{
+    background:#D35555;
+    font-size: small;
+}
+
+.abutton{
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer; 
+}
+
+.atendente, th {
+    border-top: 3px solid;
+}
+
+		.barra {
+			 background-color: #303a43;
+			 position: absolute;
+			 top: 0;
+			 left: 0;
+			 right: 0;
+			 height: 55px;
+			 font-size: 40px;
+			 font-family: american captain;
+			 text-align: center;
+			 color: #ffffff;
+		}
+		
+		.link	{
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		.cadastro{
+			color: #FFFFFF;
+			font-family: american captain;
+			font-size: 18px;
+			top: 50%;
+			left: 50%;
+			width: 300px;
+			padding: 40px;
+			position: absolute;
+			top: 57.5%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			background: #191919;
+			text-align: left;
+		}
+		
+		.cadastro h3{
+			text-align: center;
+			
+		}
+		.h1{
+			text-align: center;
+			
+		}
+		.enviar{
+
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 8px 16px;
+			text-decoration: none;
+			margin: 1px 1px;
+			cursor: pointer;
+			text-align: center;
+		}
+		.apagar{
+
+			background-color: #f44336;
+			border: none;
+			color: white;
+			padding: 8px 16px;
+			text-decoration: none;
+			margin: 1px 1px;
+			cursor: pointer;
+			text-align: center;
+		}
+		.customers {
+		  font-family: Arial, Helvetica, sans-serif;
+		  border-collapse: collapse;
+		  width: 100%;
+		  text-align: center;
+		}
+
+		.customers td, .customers th {
+		  border: 1px solid #ddd;
+		  padding: 8px;
+		}
+
+		.customers tr:nth-child(even){background-color: #f2f2f2;}
+		
+		.customers tr:nth-child(odd){background-color: #ddd;}
+
+		.customers tr:hover {background-color: #ddd;}
+
+		.customers th {
+		  padding-top: 12px;
+		  padding-bottom: 12px;
+		  text-align: left;
+		  background-color: #4CAF50;
+		  color: white;
+		}
+		
+		.link	{
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		.caixa{
+			width: 300px;
+			padding: 40px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			background: #191919;
+			text-align: center;
+			color: #ffffff;
+		}
+		.caixa input[type=text], .caixa input[type=password] {
+			border:0;
+			background: none;
+			display: block;
+			margin: 20px auto;
+			text-align: center;
+			border: 2px solid #3498db;
+			padding: 14px 10px;
+			width: 200px;
+			outline: none;
+			color: white;
+			border-radius: 24px;
+			transition: 0.25s;
+		}
+				.caixa h1{
+			color: white;
+			text-transform: uppercase;
+			font-weight:500;
+			font-family: american captain;
+		}
+				h1{
+			color: white;
+			text-transform: uppercase;
+			font-weight:500;
+			font-family: american captain;
+		}
+		.agenda{
+			text-align: center;
+			color: #ffffff;
+		}
+		.enviado{
+
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 8px 16px;
+			text-decoration: none;
+			margin: 1px 1px;
+			cursor: pointer;
+			text-align: center;
+		}
